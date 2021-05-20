@@ -1,5 +1,5 @@
 module.exports = {
-    port: 8003,
+    port: process.env.PORT || 3000,
     path_static: './cite',
     MIME_TYPES: {
         html: 'text/html; charset=UTF-8',
