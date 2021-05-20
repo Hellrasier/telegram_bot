@@ -38,7 +38,7 @@ function getTasks() {
                     <option ${task.english_level == 'A1' ? 'selected' : ''} value="A1">A1</option>
                     <option ${task.english_level == 'A2' ? 'selected' : ''} value="A2">A2</option>
                     <option ${task.english_level == 'B1' ? 'selected' : ''} value="B1">B1</option>
-                    <option ${task.english_level == 'B2' ? 'selected' : ''} value="B1">B2</option>
+                    <option ${task.english_level == 'B2' ? 'selected' : ''} value="B2">B2</option>
                     <option ${task.english_level == 'C1' ? 'selected' : ''} value="C1">C1</option>
                     </select></p>
                 <a href="#" class="btn btn-outline-secondary card-link edit-task">Edit task</a>
