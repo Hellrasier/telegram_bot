@@ -10,6 +10,6 @@ launchBot()
 http.createServer((req, res) => {
     let {url, method} = req
     console.log(`Url got: ${url}`)
-    url.split('/')[1] == 'api' ? router(url, res)[method](body(req)) : sendStatic(url, res)
+    // url.split('/')[1] == 'api' ? router(url, res)[method](body(req)) : sendStatic(url, res)
 }).listen(port)
 
